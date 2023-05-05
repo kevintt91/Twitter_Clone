@@ -16,6 +16,8 @@
 		C6BBE6112A04A29C00F2A81D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6102A04A29C00F2A81D /* SearchView.swift */; };
 		C6BBE6132A04A2A400F2A81D /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6122A04A2A400F2A81D /* NotificationsView.swift */; };
 		C6BBE6152A04A2AD00F2A81D /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6142A04A2AD00F2A81D /* MessagesView.swift */; };
+		C6BBE6172A04C9F800F2A81D /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6162A04C9F800F2A81D /* CreateTweetView.swift */; };
+		C6BBE6192A04CADC00F2A81D /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6182A04CADC00F2A81D /* MultilineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		C6BBE6102A04A29C00F2A81D /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		C6BBE6122A04A2A400F2A81D /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		C6BBE6142A04A2AD00F2A81D /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		C6BBE6162A04C9F800F2A81D /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
+		C6BBE6182A04CADC00F2A81D /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,7 @@
 		C6BBE6042A04825E00F2A81D /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				C6BBE6182A04CADC00F2A81D /* MultilineTextField.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 		C6BBE6052A04826200F2A81D /* Post */ = {
 			isa = PBXGroup;
 			children = (
+				C6BBE6162A04C9F800F2A81D /* CreateTweetView.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -266,9 +272,11 @@
 			files = (
 				C6BBE6112A04A29C00F2A81D /* SearchView.swift in Sources */,
 				C6BBE60F2A04A29400F2A81D /* FeedView.swift in Sources */,
+				C6BBE6172A04C9F800F2A81D /* CreateTweetView.swift in Sources */,
 				C6BBE5F32A0481FB00F2A81D /* ContentView.swift in Sources */,
 				C6BBE60D2A0482A500F2A81D /* Home.swift in Sources */,
 				C6BBE6152A04A2AD00F2A81D /* MessagesView.swift in Sources */,
+				C6BBE6192A04CADC00F2A81D /* MultilineTextField.swift in Sources */,
 				C6BBE5F12A0481FB00F2A81D /* Twitter_CloneApp.swift in Sources */,
 				C6BBE6132A04A2A400F2A81D /* NotificationsView.swift in Sources */,
 			);
