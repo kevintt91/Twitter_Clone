@@ -24,6 +24,7 @@
 		C6BBE6212A09A9EE00F2A81D /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6202A09A9EE00F2A81D /* SearchUserCell.swift */; };
 		C6BBE6232A09AE1900F2A81D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6222A09AE1900F2A81D /* Extensions.swift */; };
 		C6BBE6252A09AF7100F2A81D /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6242A09AF7100F2A81D /* NotificationCell.swift */; };
+		C6BBE6272A09BE3500F2A81D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6262A09BE3500F2A81D /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		C6BBE6202A09A9EE00F2A81D /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
 		C6BBE6222A09AE1900F2A81D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C6BBE6242A09AF7100F2A81D /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		C6BBE6262A09BE3500F2A81D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				C6BBE6142A04A2AD00F2A81D /* MessagesView.swift */,
+				C6BBE6262A09BE3500F2A81D /* MessageCell.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6BBE61B2A09943E00F2A81D /* TweetCellView.swift in Sources */,
+				C6BBE6272A09BE3500F2A81D /* MessageCell.swift in Sources */,
 				C6BBE61D2A099BDB00F2A81D /* SearchCell.swift in Sources */,
 				C6BBE6112A04A29C00F2A81D /* SearchView.swift in Sources */,
 				C6BBE60F2A04A29400F2A81D /* FeedView.swift in Sources */,
