@@ -10,13 +10,12 @@ import SwiftUI
 struct CreateTweetView: View {
     
     @Binding var text: String
-//    @Environment(\.presentationMode) var presentationMode
     @Environment(\.dismiss) var dismiss
+    
     var body: some View {
         VStack {
             HStack {
                 Button {
-//                    presentationMode.wrappedValue.dismiss()
                     dismiss.callAsFunction()
                 } label: {
                     Text("Cancel")

@@ -18,6 +18,7 @@
 		C6BBE6152A04A2AD00F2A81D /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6142A04A2AD00F2A81D /* MessagesView.swift */; };
 		C6BBE6172A04C9F800F2A81D /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6162A04C9F800F2A81D /* CreateTweetView.swift */; };
 		C6BBE6192A04CADC00F2A81D /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6182A04CADC00F2A81D /* MultilineTextField.swift */; };
+		C6BBE61B2A09943E00F2A81D /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE61A2A09943E00F2A81D /* TweetCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C6BBE6142A04A2AD00F2A81D /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		C6BBE6162A04C9F800F2A81D /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		C6BBE6182A04CADC00F2A81D /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		C6BBE61A2A09943E00F2A81D /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				C6BBE60E2A04A29400F2A81D /* FeedView.swift */,
+				C6BBE61A2A09943E00F2A81D /* TweetCellView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6BBE61B2A09943E00F2A81D /* TweetCellView.swift in Sources */,
 				C6BBE6112A04A29C00F2A81D /* SearchView.swift in Sources */,
 				C6BBE60F2A04A29400F2A81D /* FeedView.swift in Sources */,
 				C6BBE6172A04C9F800F2A81D /* CreateTweetView.swift in Sources */,

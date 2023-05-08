@@ -9,7 +9,21 @@ import SwiftUI
 
 struct FeedView: View {
     var body: some View {
-        Text("Feed")
+        ScrollView(.vertical, showsIndicators: false) {
+            
+            TweetCellView(tweet: "Hey Tim, are those regular glasses?", tweetImage: "post")
+            
+            Divider()
+            
+            VStack(spacing: 18) {
+                ForEach(1...20, id: \.self) { _ in
+                    TweetCellView(tweet: sampleText)
+                    Divider()
+                }
+            }
+            .padding([.top, .bottom])
+            .zIndex(0)
+        }
     }
 }
 
