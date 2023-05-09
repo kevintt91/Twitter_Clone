@@ -10,11 +10,15 @@ import SwiftUI
 struct TopBar: View {
     
     @State private var width = UIScreen.main.bounds.width
+    @Binding var x: CGFloat
     
     var body: some View {
         VStack {
             HStack {
                 Button {
+                    withAnimation {
+                        self.x = 0
+                    }
                     
                 } label: {
                     Image(systemName: "line.horizontal.3")
@@ -46,6 +50,6 @@ struct TopBar: View {
 
 struct TopBar_Previews: PreviewProvider {
     static var previews: some View {
-        TopBar()
+        TopBar(x: .constant(0))
     }
 }

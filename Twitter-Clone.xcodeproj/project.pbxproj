@@ -27,6 +27,9 @@
 		C6BBE6272A09BE3500F2A81D /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6262A09BE3500F2A81D /* MessageCell.swift */; };
 		C6BBE6292A09C00C00F2A81D /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6282A09C00C00F2A81D /* TopBar.swift */; };
 		C6BBE62B2A09C12600F2A81D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE62A2A09C12600F2A81D /* MainView.swift */; };
+		C6BBE62D2A09C1A900F2A81D /* SlideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE62C2A09C1A900F2A81D /* SlideMenu.swift */; };
+		C6BBE62F2A0A152C00F2A81D /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE62E2A0A152C00F2A81D /* FollowView.swift */; };
+		C6BBE6312A0A177100F2A81D /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BBE6302A0A177100F2A81D /* MenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,9 @@
 		C6BBE6262A09BE3500F2A81D /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		C6BBE6282A09C00C00F2A81D /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		C6BBE62A2A09C12600F2A81D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C6BBE62C2A09C1A900F2A81D /* SlideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenu.swift; sourceTree = "<group>"; };
+		C6BBE62E2A0A152C00F2A81D /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
+		C6BBE6302A0A177100F2A81D /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,8 @@
 			children = (
 				C6BBE6182A04CADC00F2A81D /* MultilineTextField.swift */,
 				C6BBE61E2A09A38600F2A81D /* SearchBar.swift */,
+				C6BBE62E2A0A152C00F2A81D /* FollowView.swift */,
+				C6BBE6302A0A177100F2A81D /* MenuButton.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 				C6BBE60C2A0482A500F2A81D /* Home.swift */,
 				C6BBE6282A09C00C00F2A81D /* TopBar.swift */,
 				C6BBE62A2A09C12600F2A81D /* MainView.swift */,
+				C6BBE62C2A09C1A900F2A81D /* SlideMenu.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -299,9 +308,11 @@
 			files = (
 				C6BBE61B2A09943E00F2A81D /* TweetCellView.swift in Sources */,
 				C6BBE62B2A09C12600F2A81D /* MainView.swift in Sources */,
+				C6BBE6312A0A177100F2A81D /* MenuButton.swift in Sources */,
 				C6BBE6272A09BE3500F2A81D /* MessageCell.swift in Sources */,
 				C6BBE61D2A099BDB00F2A81D /* SearchCell.swift in Sources */,
 				C6BBE6112A04A29C00F2A81D /* SearchView.swift in Sources */,
+				C6BBE62D2A09C1A900F2A81D /* SlideMenu.swift in Sources */,
 				C6BBE60F2A04A29400F2A81D /* FeedView.swift in Sources */,
 				C6BBE6212A09A9EE00F2A81D /* SearchUserCell.swift in Sources */,
 				C6BBE6172A04C9F800F2A81D /* CreateTweetView.swift in Sources */,
@@ -309,6 +320,7 @@
 				C6BBE5F32A0481FB00F2A81D /* ContentView.swift in Sources */,
 				C6BBE6292A09C00C00F2A81D /* TopBar.swift in Sources */,
 				C6BBE60D2A0482A500F2A81D /* Home.swift in Sources */,
+				C6BBE62F2A0A152C00F2A81D /* FollowView.swift in Sources */,
 				C6BBE6152A04A2AD00F2A81D /* MessagesView.swift in Sources */,
 				C6BBE6192A04CADC00F2A81D /* MultilineTextField.swift in Sources */,
 				C6BBE5F12A0481FB00F2A81D /* Twitter_CloneApp.swift in Sources */,

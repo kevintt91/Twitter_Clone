@@ -29,16 +29,17 @@ struct SearchBar: View {
                 }
             
             Button {
-                isEditing = false
-                text = ""
-                UIApplication.shared.endEditing()
+                withAnimation {
+                    isEditing = false
+                    text = ""
+                    UIApplication.shared.endEditing()
+                }
                 
             } label: {
                 Text("Cancel")
                     .foregroundColor(.black)
                     .padding()
                     .transition(.move(edge: .trailing))
-                    .animation(.default)
             }
 
         }
